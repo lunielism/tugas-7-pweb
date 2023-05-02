@@ -29,6 +29,107 @@ if( mysqli_num_rows($query) < 1 ){
 	<title>Formulir Edit Siswa | SMK Coding</title>
 </head>
 
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+}
+
+form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+header h3 {
+  font-size: 24px;
+}
+
+form label {
+  color: #555;
+}
+
+form input[type="text"],
+form select,
+form textarea {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  color: #555;
+}
+
+form input[type="submit"] {
+  background-color: #26a69a;
+  font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+  background-color: #00796b;
+}
+
+}
+
+
+</style>
 <body>
 	<header>
 		<h3>Formulir Edit Siswa</h3>
